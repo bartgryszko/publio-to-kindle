@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div {
+    margin: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+input#pin {
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    width: 100px;
+}
+
+input.submit {
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}

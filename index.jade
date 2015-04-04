@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+    head
+        title Publio to Kindle
+        style
+            include style.css
+    body
+        h1 Publio to Kindle
+        p Latest Publication: <br /> <strong>#{name}</strong>
+strongname
+        div
+            form(action='/download' method='post')
+                label(for='pin') Enter PIN:
+                input(type='text' name='pin')#pin
+                button(type='submit').submit.
+                    Download
