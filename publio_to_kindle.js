@@ -37,6 +37,7 @@ function _downloadPackage() {
         Request.get(
             {
                 url: url,
+                encoding: null,
                 headers: {
                     'X-Csrf-Token': _csrf
                 }
